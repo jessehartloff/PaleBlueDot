@@ -138,7 +138,7 @@ object PaleBlueDot {
    *
    * You're in a city. I'm in a city. We want to meet in a city with a fair split of travel distance for each of us.
    * We happen to both own helicopters so we'll travel "as the crow flies" and we're not concerned about roads or
-   * oceans. We just need to city closest to the midpoint between our two cities and we'll meet there.
+   * oceans. We just need to find city closest to the midpoint between our two cities and we'll meet there.
    *
    * Each city is provided to this method as a List containing the country code, name, and region exactly as they
    * appear in the cities file (ie. Don't do anything with upper/lower-case in this method.) The returned city should
