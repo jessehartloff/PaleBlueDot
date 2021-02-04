@@ -4,6 +4,10 @@
     <modelVersion>4.0.0</modelVersion>
     <url>http://maven.apache.org</url>
     <version>0.0.1</version>
+    <properties>
+        <maven.compiler.source>15</maven.compiler.source>
+        <maven.compiler.target>15</maven.compiler.target>
+    </properties>
     <dependencies>
 
         <!-- https://mvnrepository.com/artifact/org.openjfx/javafx-base -->
