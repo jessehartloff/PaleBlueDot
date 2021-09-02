@@ -8,7 +8,7 @@ object PaleBlueDot {
 
 
   /**
-   * Lecture Objective 1
+   * Lecture Task 1
    *
    * Converts degrees into radians
    *
@@ -21,7 +21,7 @@ object PaleBlueDot {
 
 
   /**
-   * Lecture Objective 2
+   * Lecture Task 2
    *
    * Given a country name using a mix of case (upper/lower), return the country code in all lowercase letters
    *
@@ -42,7 +42,7 @@ object PaleBlueDot {
 
 
   /**
-   * Lecture Objective 3
+   * Lecture Task 3
    *
    * Returns a Map[cityName -> population] for all cities in the given county and region. The name of each
    * city should match exactly how it appears in citiesFilename and the population is read from the file
@@ -62,7 +62,7 @@ object PaleBlueDot {
 
 
   /**
-   * Lecture Objective 4
+   * Lecture Task 4
    *
    * Returns a List of city names in the given county and region with a population at least minPopulation.
    *
@@ -78,7 +78,7 @@ object PaleBlueDot {
 
 
   /**
-   * Lecture Objective 5
+   * Lecture Task 5
    *
    * Computes the grater circle distance ("As the crow flies") between two locations on Earth in kilometers.
    * The input locations are given as Lists of Double containing the latitude and longitude coordinates of that
@@ -100,7 +100,7 @@ object PaleBlueDot {
 
 
   /**
-   * Lecture Objective 6
+   * Lecture Task 6
    *
    * You find yourself stranded in an unfamiliar place with no signs of civilization. You don't have much with you,
    * but you do have a locator that gives your current latitude/longitude, a csv file of cities, and your final

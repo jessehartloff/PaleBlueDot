@@ -2,7 +2,7 @@ package tests
 
 import org.scalatest._
 
-class LectureObjective2 extends FunSuite {
+class LectureTask2 extends FunSuite {
 
   val countriesFile: String = "data/countries.txt"
 

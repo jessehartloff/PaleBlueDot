@@ -2,7 +2,7 @@ package tests
 
 import org.scalatest._
 
-class LectureObjective3 extends FunSuite {
+class LectureTask6 extends FunSuite {
 
   val citiesFilename: String = "data/cities.csv"
 

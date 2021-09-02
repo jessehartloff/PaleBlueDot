@@ -2,7 +2,7 @@ package tests
 
 import org.scalatest._
 
-class LectureObjective1 extends FunSuite {
+class LectureTask1 extends FunSuite {
 
   val EPSILON: Double = 0.001
 
