@@ -23,16 +23,16 @@ object PaleBlueDot {
   /**
    * Lecture Objective 2
    *
-   * Given a country name using and case (upper/lower), return the country code in all lowercase letters
+   * Given a country name using a mix of case (upper/lower), return the country code in all lowercase letters
    *
-   * Ex. If "Heard Island and McDonald Islands#HM" is a line countriesFilename
-   * and countryName is "hEaRd IsLaNd AnD mCdOnAlD iSlAnDs" the returned value is "hm"
+   * Ex. If "Heard Island and McDonald Islands#HM" is a line countriesFilename and the countryName input
+   * of your method is "hEaRd IsLaNd AnD mCdOnAlD iSlAnDs" the returned value is "hm"
    *
    * If countryName is not in the file, return the empty String: ""
    *
    * @param countriesFilename Name of the file containing country names and codes
    * @param countryName       The name of the country to lookup in the file with any mix of upper/lower-case
-   * @return The two letter country code for countryName
+   * @return The two letter country code for countryName in lowercase letters
    */
   def getCountryCode(countriesFilename: String, countryName: String): String = {
     val countriesFile: BufferedSource = Source.fromFile(countriesFilename)
@@ -100,7 +100,7 @@ object PaleBlueDot {
 
 
   /**
-   * Programming Objective 1
+   * Lecture Objective 6
    *
    * You find yourself stranded in an unfamiliar place with no signs of civilization. You don't have much with you,
    * but you do have a locator that gives your current latitude/longitude, a csv file of cities, and your final
@@ -118,7 +118,7 @@ object PaleBlueDot {
 
 
   /**
-   * Programming Objective 2
+   * Application Objective 1
    *
    * Find the population of a country by name. Not quite a life or death situation, but interesting information
    * regardless.
@@ -134,7 +134,7 @@ object PaleBlueDot {
 
 
   /**
-   * Application Objective
+   * Application Objective 2
    *
    * You're in a city. I'm in a city. We want to meet in a city with a fair split of travel distance for each of us.
    * We happen to both own helicopters so we'll travel "as the crow flies" and we're not concerned about roads or
