@@ -7,7 +7,7 @@ class Task1 extends FunSuite {
 
   val countriesFile: String = "data/countries.txt"
 
-  test("Tests with case matching the data file") {
+  test("1 - Country names that have proper capitalization") {
 
     val testCases: Map[String, String] = Map(
       "Uganda" -> "ug",
@@ -25,7 +25,7 @@ class Task1 extends FunSuite {
 
   }
 
-  test("Test cases with mixed upper/lower-case") {
+  test("2 - Country names with random upper/lower-case") {
     val testCases: Map[String, String] = Map(
       "hEaRd IsLaNd AnD mCdOnAlD iSlAnDs" -> "hm",
       "UGANDA" -> "ug",
@@ -42,7 +42,7 @@ class Task1 extends FunSuite {
 
   }
 
-  test("Test cases that are not countries in the data file") {
+  test("3 - Test cases that are not countries in the data file") {
     val testCases: Map[String, String] = Map(
       "" -> "",
       "Not a real country" -> "",
@@ -55,6 +55,5 @@ class Task1 extends FunSuite {
     }
 
   }
-
 
 }
