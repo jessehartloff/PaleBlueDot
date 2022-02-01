@@ -7,7 +7,6 @@ import scala.io.{BufferedSource, Source}
 object PaleBlueDot {
 
 
-
   /**
    * Task 1
    *
@@ -30,7 +29,6 @@ object PaleBlueDot {
   }
 
 
-
   /**
    * Task 2
    *
@@ -48,7 +46,6 @@ object PaleBlueDot {
   }
 
 
-
   /**
    * Task 3
    */
@@ -59,8 +56,8 @@ object PaleBlueDot {
    * and converted to an Int. The country name may contain any mix of upper/lower-case letters.
    *
    * @param countriesFilename Name of the file containing country names and codes
-   * @param citiesFilename Name of the file containing city name, population, and location data
-   * @param countryName    The name of the country with any mix of upper/lower-case
+   * @param citiesFilename    Name of the file containing city name, population, and location data
+   * @param countryName       The name of the country with any mix of upper/lower-case
    * @return A Map containing the name and population of every city in the given country
    */
   def cityPopulations(countriesFilename: String, citiesFilename: String, countryName: String): Map[String, Int] = {
@@ -72,16 +69,15 @@ object PaleBlueDot {
   /**
    * Returns a List of city names in the given county and with above average population for that country
    *
-   * @param citiesFilename Name of the file containing city name, population, and location data
-   * @param countryName    The name of the country with any mix of upper/lower-case
+   * @param countriesFilename Name of the file containing country names and codes
+   * @param citiesFilename    Name of the file containing city name, population, and location data
+   * @param countryName       The name of the country with any mix of upper/lower-case
    * @return All city names in given country with a population > the average populations of cities in that country
    */
-  def aboveAverageCities(citiesFilename: String, countryName: String, minPopulation: Int): List[String] = {
+  def aboveAverageCities(countriesFilename: String, citiesFilename: String, countryName: String): List[String] = {
 
     List()
   }
-
-
 
 
   /**
@@ -104,8 +100,6 @@ object PaleBlueDot {
   def closestCity(citiesFilename: String, location: List[Double]): List[String] = {
     List("Country Code", "City Name", "Region")
   }
-
-
 
 
   /**
