@@ -58,9 +58,10 @@ object PaleBlueDot {
    * @param countriesFilename Name of the file containing country names and codes
    * @param citiesFilename    Name of the file containing city name, population, and location data
    * @param countryName       The name of the country with any mix of upper/lower-case
+   * @param regionCode        Two digit region code with case matching the case from the cities file
    * @return A Map containing the name and population of every city in the given country
    */
-  def cityPopulations(countriesFilename: String, citiesFilename: String, countryName: String): Map[String, Int] = {
+  def cityPopulations(countriesFilename: String, citiesFilename: String, countryName: String, regionCode: String): Map[String, Int] = {
 
     Map()
   }
